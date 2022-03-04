@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right,rgb(221, 248, 148), rgb(115, 67, 247), rgb(245, 125, 205));
+}
+.foto{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 200px;
+    margin-right: 120px;
+    border: 2px solid white;
+}
+.text {
+    width: 400px;
+    height: 300px;
+    font-size: 18px;
+}
+.text h1{
+    color: rgb(0, 0, 0);
+    margin-bottom: 3px;
+    padding: 7px;
+}
+.text p{
+    text-indent: 30px;
+    
+}
+.text p::first-letter{
+    font-size: 30px;
+}
